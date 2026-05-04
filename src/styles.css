@@ -1,0 +1,62 @@
+:root {
+  background-color: #030b0c;
+  color: #f5fffd;
+}
+
+body {
+  background: #030b0c;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  background: #030b0c;
+  min-height: 100vh;
+}
+
+/* MUI Customizations */
+.invoice-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+.invoice-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.invoice-card.active {
+  border: 2px solid #00695c;
+}
+
+.workflow-stepper {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.preview-paper {
+  position: relative;
+  overflow: hidden;
+}
+
+.preview-paper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: #00695c;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}

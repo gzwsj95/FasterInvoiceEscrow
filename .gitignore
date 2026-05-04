@@ -1,0 +1,14 @@
+node_modules/
+dist/
+artifacts/
+cache/
+coverage/
+typechain-types/
+.env
+.env.local
+.env.*.local
+deployments/arc-testnet.json
+deployments/*.json
+!deployments/*.example.json
+*.log
+.DS_Store
