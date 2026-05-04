@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Faster Invoice Escrow">
+  <defs>
+    <linearGradient id="surface" x1="8" x2="56" y1="8" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#128276"/>
+      <stop offset="1" stop-color="#08675f"/>
+    </linearGradient>
+    <linearGradient id="fold" x1="35" x2="52" y1="42" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8c856"/>
+      <stop offset="1" stop-color="#d99a2b"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="13" fill="url(#surface)"/>
+  <path d="M13 21h13M11 30h15M15 39h11" fill="none" stroke="#dffaf5" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M30 12h14l8 8v27a5 5 0 0 1-5 5H30a5 5 0 0 1-5-5V17a5 5 0 0 1 5-5Z" fill="#f8fffd"/>
+  <path d="M44 12v8h8" fill="#d8f4ef"/>
+  <path d="M32 27h13M32 35h15" fill="none" stroke="#096258" stroke-width="3.4" stroke-linecap="round"/>
+  <path d="M28 50c8-1 15-5 22-13" fill="none" stroke="url(#fold)" stroke-width="4.6" stroke-linecap="round"/>
+  <circle cx="47" cy="44" r="10" fill="#173f3c"/>
+  <circle cx="47" cy="44" r="8.1" fill="#173f3c" stroke="#ffffff" stroke-width="2.2"/>
+  <path d="M42.7 44h8.6M47 39.7v8.6" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
